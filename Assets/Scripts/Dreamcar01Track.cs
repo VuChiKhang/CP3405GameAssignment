@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 public class Dreamcar01Track : MonoBehaviour
 {
 
@@ -66,7 +67,7 @@ public class Dreamcar01Track : MonoBehaviour
         }
         if (MarkTracker == 7)
         {
-            TheMarker.transform.position = Mark8.transform.position;
+            TheMarker.transform.position = Mark08.transform.position;
         }
         if (MarkTracker == 8)
         {
@@ -158,4 +159,5 @@ public class Dreamcar01Track : MonoBehaviour
             }
         }
     }
+}
 
